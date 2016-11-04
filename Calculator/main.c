@@ -6,12 +6,14 @@ int addition(int a, int b)
     return a+b;
 }
 
+int substraction (int c, int d)
+{
+    return c-d;
+}
 
 int main()
 {
-<<<<<<< HEAD
-=======
     printf(" L'addition de a et b vaut %d\n", addition(1,4));
->>>>>>> origin/master
+    printf(" La soustraction de c et d vaut %d\n", substraction(1,4));
     return 0;
 }
